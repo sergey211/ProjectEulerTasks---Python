@@ -101,9 +101,9 @@ for w in range(len(list1)):
         posled1=listelstrns[j]
         for i in range(len(posled1)):
             sump1=sump1+int(posled1[i])
-            #print('sum='+str(sump1))
+            #print('sum = '+str(sump1))
             proizp1=proizp1*int(posled1[i])
-            #print('proizv'+str(proizp1))
+            #print('proizv '+str(proizp1))
         print('total sum posled '+str(j)+' = '+str(sump1)) 
         sumss.append(sump1)    
         print('total proizv posled '+str(j)+' = '+str(proizp1)) 
